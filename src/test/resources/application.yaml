@@ -1,0 +1,26 @@
+server:
+  port: 8443
+
+  ssl:
+    enabled: true
+    key-store: ./keystore/keystore.jks
+    key-password: changeit
+    key-alias: localhost
+
+    trust-store: ./keystore/truststore.jks
+    trust-store-password: changeit
+
+    client-auth: need
+
+redmine:
+  redmine-uno:
+    url: http://localhost:8082
+    api-key: ABC
+
+  redmine-dos:
+    url: http://localhost:8081
+    api-key: ABCDEF123
+
+  baeldung.com:
+    url: http://localhost:8080
+    api-key: 24893d8a2c67fb40f6c3fa6d9cef773d215483b0
