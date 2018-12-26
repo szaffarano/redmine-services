@@ -1,0 +1,22 @@
+server:
+  port: 8443
+
+  ssl:
+    enabled: true
+    key-store: ./keystore/keystore.jks
+    key-password: changeit
+    key-alias: localhost
+
+    trust-store: ./keystore/truststore.jks
+    trust-store-password: changeit
+
+    client-auth: need
+
+redmine:
+  redmine-two:
+    url: http://localhost:8082
+    api-key: d3c7d5f0521d10029df53ae1b388c2a2dee2b6ed
+
+  redmine-one:
+    url: http://localhost:8080
+    api-key: be2d41972d2a3faae108061f96e1c45f546a3b0f
