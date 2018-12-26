@@ -124,3 +124,9 @@ gradle-app.setting
 **/build/
 
 # End of https://www.gitignore.io/api/maven,gradle,intellij,visualstudiocode
+
+## Test certificates
+keystore/*.jks
+keystore/*.p12
+keystore/*.crt
+keystore/*.csr
